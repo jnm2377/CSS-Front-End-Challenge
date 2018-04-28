@@ -51,28 +51,32 @@ font-weight: 300;
 text-align: center;
 }
 
-.img-row {
-  display: flex;
-  flex-direction: row;
-  /* max-height: 385px; */
+
+.paragraph-columns-container {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid blue; */
 }
 
-.column {
-  width: 50%;
+.wrapped-text {
+  width: 100%;
   height: auto;
   margin: 0;
+  /* border: 1px solid gold; */
 }
 
 .img-right {
-  object-fit: contain;
+  float: right;
+  width: 50%;
   margin: 0 0 20px 20px;
-  vertical-align: text-top;
+  /* border: 1px solid red; */
 }
 
 .img-left {
-  object-fit: contain;
+  float: left;
+  width: 50%;
   margin: 0 20px 20px 0;
-  vertical-align: text-top;
+  /* border: 1px solid red; */
 }
 
 .cover-img {
