@@ -1,0 +1,159 @@
+/* Add Styles Here */
+body {
+  font: 20px/1.6 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #111111;
+
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font:40px/1.4 'Raleway', sans-serif;
+  font-weight: 900;
+  margin: 40px auto;
+  text-align: left;
+  text-transform: none;
+}
+
+.section-heading-right {
+  text-align: right;
+}
+
+.offers-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.offers-box {
+  background: #f4f4f4;
+  width: 31.2%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.offers-heading {
+  font: 25px/1.4 'Raleway', sans-serif;
+  font-weight: 900;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.offers-text {
+font: 20px/1.6 'Raleway', sans-serif;
+font-weight: 300;
+text-align: center;
+}
+
+.img-row {
+  display: flex;
+  flex-direction: row;
+  /* max-height: 385px; */
+}
+
+.column {
+  width: 50%;
+  height: auto;
+  margin: 0;
+}
+
+.img-right {
+  object-fit: contain;
+  margin: 0 0 20px 20px;
+  vertical-align: text-top;
+}
+
+.img-left {
+  object-fit: contain;
+  margin: 0 20px 20px 0;
+  vertical-align: text-top;
+}
+
+.cover-img {
+  width: 100%;
+  height: auto;
+  margin: 40px 0 90px 0;
+}
+
+.quote {
+  padding: 30px;
+  margin: auto;
+}
+
+.quote-row {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.quote-text {
+  font: 30px/1.4 'Merriweather', serif;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+.quote-img {
+  max-height: 70px;
+  width: auto;
+}
+
+
+@media (max-width: 960px) {
+  .offers-box {
+    width: 47%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    margin: 32px auto;
+  }
+
+  .section-heading {
+    font: 32px/1.4 'Raleway', sans-serif;
+  }
+
+  .offers-box {
+    width: 100%;
+  }
+
+  .offers-heading {
+    font: 20px/1.4 'Raleway', sans-serif;
+  }
+
+  .img-row {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .cover-img {
+    margin-top: 32px;
+  }
+
+  .quote {
+    padding: 36px;
+    margin: 48px auto;
+  }
+
+  .quote-img {
+    display: none;
+  }
+
+  .quote-text {
+    font: 24px/1.4;
+  }
+}
