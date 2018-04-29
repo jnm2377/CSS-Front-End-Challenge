@@ -55,28 +55,24 @@ text-align: center;
 .paragraph-columns-container {
   width: 100%;
   height: auto;
-  /* border: 1px solid blue; */
 }
 
 .wrapped-text {
   width: 100%;
   height: auto;
   margin: 0;
-  /* border: 1px solid gold; */
 }
 
 .img-right {
   float: right;
   width: 50%;
   margin: 0 0 20px 20px;
-  /* border: 1px solid red; */
 }
 
 .img-left {
   float: left;
   width: 50%;
   margin: 0 20px 20px 0;
-  /* border: 1px solid red; */
 }
 
 .cover-img {
@@ -120,20 +116,22 @@ text-align: center;
     font-size: 16px;
   }
 
-  .container {
-    margin: 32px auto;
-  }
-
-  .section-heading {
+  .section-heading, .section-heading-right {
     font: 32px/1.4 'Raleway', sans-serif;
+    font-weight: 900;
+    margin: 32px auto;
+    position: relative;
   }
 
   .offers-box {
     width: 100%;
+    padding: 8px;
   }
 
   .offers-heading {
     font: 20px/1.4 'Raleway', sans-serif;
+    font-weight: 900;
+    margin: 20px auto;
   }
 
   .img-left, .img-right {
@@ -147,6 +145,7 @@ text-align: center;
 
   .cover-img {
     margin-top: 32px;
+    margin-bottom: 0;
   }
 
   .quote {
