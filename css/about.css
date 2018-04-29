@@ -86,14 +86,8 @@ text-align: center;
 }
 
 .quote {
-  padding: 30px;
-  margin: auto;
-}
-
-.quote-row {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
+  padding: 0 30px;
+  margin: 0 auto 90px auto;
 }
 
 .quote-text {
@@ -103,11 +97,17 @@ text-align: center;
   text-align: center;
 }
 
-.quote-img {
+.quote-img-left {
   max-height: 70px;
   width: auto;
+  float: left;
 }
 
+.quote-img-right {
+  max-height: 70px;
+  width: auto;
+  float: right;
+}
 
 @media (max-width: 960px) {
   .offers-box {
@@ -136,12 +136,13 @@ text-align: center;
     font: 20px/1.4 'Raleway', sans-serif;
   }
 
-  .img-row {
-    flex-direction: column;
+  .img-left, .img-right {
+    width: 100%;
+    margin: 0 0 16px 0px;
   }
 
-  .column {
-    width: 100%;
+  .wrapped-text {
+    margin: 0 0 16px 0px;
   }
 
   .cover-img {
@@ -153,7 +154,7 @@ text-align: center;
     margin: 48px auto;
   }
 
-  .quote-img {
+  .quote-img-left, .quote-img-right {
     display: none;
   }
 
